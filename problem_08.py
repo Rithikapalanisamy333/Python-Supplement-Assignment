@@ -2,7 +2,8 @@
 # Find and fix the error
 
 def is_palindrome(text):
-    return text == text[::-1]
+    clean_text = text.lower()
+    return clean_text == clean_text[::-1]
 
 word = "Racecar"
 if is_palindrome(word):
