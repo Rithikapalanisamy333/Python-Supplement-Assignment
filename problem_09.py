@@ -2,6 +2,6 @@
 # Find and fix the error
 
 numbers = [10, 20, 30, 40, 50]
-total = sum(numbers)
-average = total / len(numbers)
+Total = sum(numbers)
+average = Total / len(numbers)
 print(f"Average: {average}")
